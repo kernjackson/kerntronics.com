@@ -1,0 +1,171 @@
+body {
+  color: black;
+  font-family: "SF Pro Display","SF Pro Icons","Apple WebExp Icons Custom","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: verdana;
+}  
+@media (prefers-color-scheme: dark) {
+	body {
+	  color: white;
+	  background: #292929;
+	}
+ }
+
+h1 {
+	color: orange;
+}
+
+/*h2 {
+/*	text-align: center;*/
+	padding: 0em, 0em, 0em, 1em;
+}
+*/
+h4 {
+	text-align: left;
+	
+}
+
+p {
+	color: black;
+}
+@media (prefers-color-scheme: dark) {
+p {
+	color: white;
+}	
+
+
+/*#kern {
+	font-family: Arial, Helvetica, sans-serif;
+    color: DarkOrange;
+    font-size: 22em;
+    padding-bottom: 0em;
+	margin: 0px auto;
+	padding: 0px;
+	size: 80%;
+}
+
+#tronics {
+	font-family: Arial, Helvetica, sans-serif;
+    color: DarkOrange;
+    font-size: 9em;
+	margin: 0px auto;
+	padding: 0px;
+}*/
+
+/*body {
+    background-color: #c4c4c4;
+}*/
+
+h2.lights-on {
+	color: #63CC62;
+}
+
+h2.http-status {
+	color: #027AFF;
+}
+
+#kern, #tronics {
+	text-align: center;
+    font-family: verdana;
+    font-size: 10em;
+
+	font-weight: 700;
+    color: orange;
+    text-shadow: 1px 1px 1px #D2691E,
+        1px 2px 1px #D2691E,
+        1px 3px 1px #D2691E,
+        1px 4px 1px #D2691E,
+        1px 5px 1px #D2691E,
+        1px 6px 1px #D2691E,
+        1px 7px 1px #D2691E,
+        1px 8px 1px #D2691E,
+        1px 9px 1px #D2691E,
+        1px 10px 1px DarkOrange/*,
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4)*/;
+	width:100%;
+	display: block;
+    overflow: hidden;
+}
+
+#tronics {
+	margin-top: -0.5em;
+	font-size: 4.35em;
+	padding-bottom: 1em;
+}
+
+/*#squircle {
+	width: 80%;
+	border-radius: 22.3%;
+}*/
+
+.card {
+	width: 80%;
+/*	text-align: left;*/
+}
+
+.squircle {
+	display: block;
+ 	margin-left: auto;
+ 	margin-right: auto;
+	width: 300px;
+	border-radius: 23.6%;
+	padding: 2%;
+	float: left;
+	clear: both;
+}
+
+.info {
+	clear: both;
+}
+
+/*179.649122807*/
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+/*.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+
+/*}*/
+
+/* This container is needed to position the front and back side */
+/*.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}*/
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+/*.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+*/
+/* Position the front and back side */
+/*.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+/*  backface-visibility: hidden;
+}
+*/
+/* Style the front side (fallback if image is missing) */
+/*.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}*/
+
+/* Style the back side */
+/*.flip-card-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+*/
